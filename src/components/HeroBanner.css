@@ -57,10 +57,10 @@
 }
 .img-alani{
     position: absolute;
-    width: 400px;
-    height: 470px;
-    right: 314px;
-    top: 191px;
+    width: 495px;
+    height: 549px;
+    right: -1px;
+    top: 152px;
     background: #0052CC;
     border-radius: 10px;
 
@@ -69,6 +69,6 @@
     height: 56px;
     color: #999dbb;
     width: 100px;
-    margin-top: 199px;
-    margin-left: 146px;
+    margin-top: 254px;
+    margin-left: 210px;
 }

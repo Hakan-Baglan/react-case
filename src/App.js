@@ -14,11 +14,11 @@ function App() {
       <Header />
       <div>
       <HeroBanner />
-      {/* <Services />
+      <Services />
       <TheirWords />
       <Register />
       <Members />
-      <Footer /> */}
+      <Footer />
       </div>
     </div>
   );
