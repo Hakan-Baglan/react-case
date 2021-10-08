@@ -1,0 +1,72 @@
+#hero-banner  {
+   background-color: aliceblue;
+   
+}
+.arka{
+    position: absolute;
+    width: 672px;
+    height: 400px;
+    left: 71px;
+    top: 0px;
+    background: rgba(0, 82, 204, 0.2);
+    border-radius: 10px;
+}
+
+.hero-title h1{
+    width: 379px;
+    font-size: 83px;
+}
+.hero-title h1 p{
+    width: 212px;
+    font-size: 83px;
+    border-bottom: 5px solid blue;
+}
+.hero-title .btn-started{
+    background-color: #0d0df1cf;
+    color: white;
+    width: 181px;
+    height: 41px;
+    border-radius: 5px;
+}
+
+.hero-title .btn-started:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+.hero-title .btn-links{
+    background-color: white;
+    color: blue;
+    border-color: #0d0df1cf;
+    width: 181px;
+    height: 41px;
+    border-radius: 5px;
+    margin-left: 26px;
+}
+.hero-title .btn-links:hover{
+    background-color: #0d0df1cf;
+    color:white;
+}
+.hero-title .scroll p{
+    writing-mode: vertical-lr;
+    margin-left: 0px;
+    color:#0d0df1cf;
+}
+.img-alani{
+    position: absolute;
+    width: 400px;
+    height: 470px;
+    right: 314px;
+    top: 191px;
+    background: #0052CC;
+    border-radius: 10px;
+
+}
+.img-alani svg{
+    height: 56px;
+    color: #999dbb;
+    width: 100px;
+    margin-top: 199px;
+    margin-left: 146px;
+}
