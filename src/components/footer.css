@@ -1,0 +1,42 @@
+.address {
+    color:#677ca0;
+    font-family: inherit;
+    margin-left :58px;
+}
+.linkler{
+    margin-left: 270px;
+}
+.fotrlink{
+    margin-top: 87px;
+}
+.hizlilink ul{
+    list-style: none;
+    margin-right: 30px; color:#677ca0;
+    font-family: inherit;
+    
+}
+.hizlilink ul li{
+    
+    cursor: pointer;
+    
+}
+.hizlilink ul a{
+   
+    text-decoration: none;
+}
+
+.hr-bottom-link{
+    list-style: none;
+    margin-top: -20px;
+
+}
+.hr-bottom-link li{
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.hr-bottom-link li:hover{
+   color:blue;
+    
+}
