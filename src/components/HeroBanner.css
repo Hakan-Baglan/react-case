@@ -2,16 +2,19 @@
    background-color: aliceblue;
    
 }
+.hero-title{
+    margin-left: 90px;
+}
 .arka{
     position: absolute;
-    width: 672px;
-    height: 400px;
+    width: 588px;
+    height: 356px;
     left: -3px;
     top: 0px;
     background: rgba(0, 82, 204, 0.2);
     border-radius: 10px;
 }
-
+ 
 .hero-title h1{
     width: 379px;
     font-size: 83px;
@@ -57,18 +60,28 @@
 }
 .img-alani{
     position: absolute;
-    width: 495px;
-    height: 549px;
-    right: -1px;
-    top: 152px;
+    width: 428px;
+    height: 473px;
+    right: 191px;
+    top: 236px;
     background: #0052CC;
     border-radius: 10px;
-
 }
 .img-alani svg{
     height: 56px;
     color: #999dbb;
     width: 100px;
-    margin-top: 254px;
-    margin-left: 210px;
+    margin-top: 190px;
+    margin-left: 167px;
+}/* Vector 1 */
+
+.scroll .cizgi{
+    background-color: blue;
+    position: absolute;
+    transform: rotate( 
+90deg);
+    margin-left: -26px;
+    width: 74px;
+    height: 2px;
+    margin-top: 40px;
 }

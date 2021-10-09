@@ -7,15 +7,15 @@ export default class HeroBanner extends Component {
           <div className="arka">
           </div>
         <div className="container">
-        <div className="col-6 hero-title mt-5">
+        <div className="hero-title">
           <h1>
             head of a <br /> newspaper <br /> <p>Store.</p>
           </h1>
 
           <p className="mt-5">
-            What's a resume headline, and how can it help you showcase <br />{" "}
+            What's a resume headline, and how can it help you showcase <br />
             your credentials? A resume headline (also known as a <br /> resume
-            title) is a brief phrase that highlights your value as a <br />{" "}
+            title) is a brief phrase that highlights your value as a <br /> 
             candidate
           </p>
           <div className="btns">
@@ -29,6 +29,7 @@ export default class HeroBanner extends Component {
           </div>
           <div className="scroll">
             <p>SCROLL</p>
+            <span className="cizgi"></span>
           </div>
         </div>
         <div className="img-alani">
@@ -37,7 +38,7 @@ export default class HeroBanner extends Component {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-image"
+            className="bi bi-image"
             viewBox="0 0 16 16"
           >
             <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
