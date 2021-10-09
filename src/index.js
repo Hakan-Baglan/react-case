@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/scss/bootstrap.scss';
-
+import 'swiper/swiper.scss'
 ReactDOM.render(
   <React.StrictMode>
     <App />

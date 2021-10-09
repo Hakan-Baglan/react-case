@@ -8,17 +8,18 @@
     border-bottom-left-radius: 5px;
     height: 147px;
 }
-.cart .img .span1{
-position: absolute;
-left: 56px;
-margin-top: 59px;
-color: white;
+.span1{
+    position: absolute;
+    color: white;
+    margin-top: 56px;
+    margin-left: 58px;
 }
 .cart .title{
     background-color: #eaf1fd;
     width: 315px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    height: 147px !important;
 }
 
 .cart .title .information{
@@ -27,4 +28,14 @@ margin-top: 38px;
 font-family: inherit;
 color: #5f6468b8;
 }
+.span2{
+    position: absolute;
+    color: white;
+    margin-top: 56px;
+    margin-left: 58px;
+}
 
+.description{
+    margin-left: 32px;
+    margin-top: 30px;
+}

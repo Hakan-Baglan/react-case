@@ -1,12 +1,24 @@
 import React, { Component } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "./theirWords.css";
 
 export default class TheirWords extends Component {
   render() {
+    let members = [{},{},{}];
     return (
       <div className="their-words">
         
-        <div className="container">
+    
+<Swiper
+              spaceBetween={25}
+              slidesPerView={1}
+              loop={true}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+             {members.map(elm => (
+                  <SwiperSlide>
+                <div className="container">
           <div className="row d-flex">
             <heaader>
               <p>Testimonial</p>
@@ -76,6 +88,20 @@ export default class TheirWords extends Component {
             </div>
           </div>
         </div>
+                </SwiperSlide>
+             ))}
+ 
+               
+            </Swiper>
+
+
+
+
+
+
+
+
+
       </div>
     );
   }

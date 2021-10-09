@@ -7,7 +7,6 @@ TheirWords,
 Register,
 Members,
 Footer} from './components';
-
 function App() {
   return (
     <div>
