@@ -93,20 +93,6 @@ export default class Services extends Component {
           </div>
           
         </div>
-        {/* <div className="container">
-
-          <div className="rectangle"></div>
-          <div className="row">
-        
-          
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="boxs">
-               <div className="row justify-content-end">
-             
-               </div>
-              </div> */}
       </div>
     );
   }

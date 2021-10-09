@@ -1,0 +1,30 @@
+.cart{
+    width: 510px;
+}
+.cart .img{
+    background-color: #4281e0;
+    width: 160px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 147px;
+}
+.cart .img .span1{
+position: absolute;
+left: 56px;
+margin-top: 59px;
+color: white;
+}
+.cart .title{
+    background-color: #eaf1fd;
+    width: 315px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cart .title .information{
+    margin-left: 35px;
+margin-top: 38px;
+font-family: inherit;
+color: #5f6468b8;
+}
+

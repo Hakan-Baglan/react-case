@@ -1,0 +1,47 @@
+.their-words{
+    height: 626px;
+}
+heaader{
+    text-align: center;
+}
+.their-words span{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 10px;
+    left: 388px;
+    margin-top: 39px;
+}
+
+.their-words span svg{
+    color: white;
+    position: absolute;
+    left: 135px;
+    top: 187px;
+}
+
+.their-words .cart-text .tirnak{
+    position: absolute;
+    left: 702px;
+    margin-top: 70px;
+}
+
+.their-words .text{
+    float: right;
+    width: 642px;
+}
+
+.their-words .text .description{
+    margin-top: 71px;
+}
+
+.their-words .cart-text.top{
+    position: absolute;
+    left: 702px;
+    margin-top: 70px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
