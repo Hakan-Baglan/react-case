@@ -27,7 +27,6 @@ export default class Register extends Component {
                     type="email"
                     className="form-control"
                     required
-                    autofocus
                   />
                 </div>
 
@@ -62,8 +61,8 @@ export default class Register extends Component {
                     <hr />
                   </span>
                 </div>
-                <button className="facebtn" type="submit">
-                <i class="fab fa-facebook-f"></i>Facebook
+                <button  className="facebtn" type="submit">
+                <i className="fab fa-facebook-f"></i>Facebook
                 </button>
               </form>
             </div>

@@ -9,7 +9,7 @@ export default class Members extends Component {
       <div>
         <div className="row">
           <div className="description text-center">
-            <p>team</p>
+            <p>TEAM</p>
             <h3>Meet Our Big Family</h3>
             <p>
               Ullamco id est eu ad culpa laborum. In sit est velit et nostrud ad
@@ -24,8 +24,8 @@ export default class Members extends Component {
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
-              {members.map((elm) => (
-                <SwiperSlide>
+              {members.map((elm,index) => (
+                <SwiperSlide key={index}>
                   <div className="cart d-flex">
                     <div className="img">
                       <span className="span1">
@@ -34,7 +34,7 @@ export default class Members extends Component {
                           width="30"
                           height="30"
                           fill="currentColor"
-                          class="bi bi-person-fill"
+                          className="bi bi-person-fill"
                           viewBox="0 0 16 16"
                         >
                           <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -46,9 +46,9 @@ export default class Members extends Component {
                         <h6>Annette Hawkins</h6>
                         <p>Art Director of Gillette</p>
                         <div className="iconlar">
-                          <i class="fab fa-facebook-f"></i>
-                          <i class="fab fa-twitter"></i>
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-facebook-f"></i>
+                          <i className="fab fa-twitter"></i>
+                          <i className="fab fa-instagram"></i>
                         </div>
                       </div>
                     </div>

@@ -19,10 +19,14 @@
     width: 379px;
     font-size: 83px;
 }
-.hero-title h1 p{
+.hero-title h1 span{
     width: 212px;
     font-size: 83px;
     border-bottom: 5px solid blue;
+}
+
+.hero-title p{
+    color: #8080b7;
 }
 .hero-title .btn-started{
     background-color: #0d0df1cf;

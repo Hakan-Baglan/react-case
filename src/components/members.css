@@ -1,5 +1,6 @@
 .cart{
     width: 510px;
+    cursor:grab;
 }
 .cart .img{
     background-color: #4281e0;
@@ -38,6 +39,7 @@ color: #5f6468b8;
 .description{
     margin-left: 32px;
     margin-top: 30px;
+    color: #7878b1d1;
 }
 .iconlar .fab{
     background-color: #a2badda1;

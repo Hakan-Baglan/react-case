@@ -9,7 +9,7 @@ export default class HeroBanner extends Component {
         <div className="container">
         <div className="hero-title">
           <h1>
-            head of a <br /> newspaper <br /> <p>Store.</p>
+            head of a <br /> newspaper <br /> <span>Store.</span>
           </h1>
 
           <p className="mt-5">

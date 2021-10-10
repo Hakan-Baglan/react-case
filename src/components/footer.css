@@ -27,8 +27,6 @@
 
 .hr-bottom-link{
     list-style: none;
-    margin-top: -20px;
-
 }
 .hr-bottom-link li{
     text-decoration: none;
@@ -46,4 +44,8 @@
     border-radius: 100%;
     margin-right: 15px;
     cursor: pointer;
+}
+
+.footer {
+    align-items:flex-end ;
 }

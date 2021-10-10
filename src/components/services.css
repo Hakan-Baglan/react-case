@@ -34,6 +34,9 @@
     border:none;
     margin-top:20px;
 }
+.title p{
+    color:#8080b7;
+}
 .title .btn-started:hover{
     background-color: white;
     color: blue;
@@ -48,16 +51,12 @@
 .box{
     margin-top: 102px;
 }
+.box span p{
+    color:#8080b7;
+}
 .box span{
     width: 318px;
         margin-top: 36px;
 }
 
 
-/* .obj{    left: 225px;
-    display: flex;
-    width: 1142px;
-    height: 83px;
-    background-color: blue;
-    position: absolute;
-    border-radius: 10px;} */

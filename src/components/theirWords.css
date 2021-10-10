@@ -1,8 +1,10 @@
 .container{
     height: 626px;
+   
 }
-heaader{
+header{
     text-align: center;
+    color: #7878b1d1;
 }
 .their-words span{
     width: 300px;
@@ -30,10 +32,12 @@ heaader{
 .their-words .text{
     float: right;
     width: 642px;
+    color: #77779f
 }
 
 .their-words .text .description{
     margin-top: 71px;
+    
 }
 
 .their-words .cart-text.top{
@@ -44,4 +48,8 @@ heaader{
 .swiper {
     width: 600px;
     height: 300px;
+    
+  }
+  .slider{
+    cursor: grab;
   }
