@@ -12,10 +12,13 @@ export default class Header extends Component {
             <li><a>Downloads</a></li>
             <li><a>Contact Us</a></li>
           </ul>
+            <div className="iconlars d-flex">
+                <i id="navicon" class="fab fa-facebook-f"></i>
+                <i id="navicon" class="fab fa-twitter"></i>
+                <i id="navicon" class="fab fa-instagram"></i>
+                </div>
         </div>
-        <div className="iconlar">
-          
-        </div>
+      
       </div>
     );
   }

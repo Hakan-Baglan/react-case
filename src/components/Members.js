@@ -4,7 +4,7 @@ import "./members.css";
 
 export default class Members extends Component {
   render() {
-      let members = [{},{},{},{},{}];
+    let members = [{}, {}, {}, {}, {}];
     return (
       <div>
         <div className="row">
@@ -24,8 +24,8 @@ export default class Members extends Component {
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
-             {members.map(elm => (
-                  <SwiperSlide>
+              {members.map((elm) => (
+                <SwiperSlide>
                   <div className="cart d-flex">
                     <div className="img">
                       <span className="span1">
@@ -45,13 +45,16 @@ export default class Members extends Component {
                       <div className="description">
                         <h6>Annette Hawkins</h6>
                         <p>Art Director of Gillette</p>
+                        <div className="iconlar">
+                          <i class="fab fa-facebook-f"></i>
+                          <i class="fab fa-twitter"></i>
+                          <i class="fab fa-instagram"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
-             ))}
- 
-               
+              ))}
             </Swiper>
           </div>
         </div>

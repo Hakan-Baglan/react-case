@@ -5,6 +5,8 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
+    
+       
         <div className="container">
           <div className="row">
            
@@ -101,10 +103,14 @@ export default class Footer extends Component {
               <div>
                   
               </div>
-              <div className="iconlar"></div>
+              <div className="iconlar">
+                <i id="fotricon" class="fab fa-facebook-f"></i>
+                <i id="fotricon" class="fab fa-twitter"></i>
+                <i id="fotricon" class="fab fa-instagram"></i>
+                </div>
 
               <p className="text-center m-0">Copyright @ 2020 Themesmile</p>
-             
+              
              <ul className="d-flex justify-content-end hr-bottom-link">
                   <li><a>Logic</a>  | </li>
                   <li><a>Term And Condtions </a>  | </li>

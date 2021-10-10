@@ -63,7 +63,7 @@ export default class Register extends Component {
                   </span>
                 </div>
                 <button className="facebtn" type="submit">
-                  Facebook
+                <i class="fab fa-facebook-f"></i>Facebook
                 </button>
               </form>
             </div>

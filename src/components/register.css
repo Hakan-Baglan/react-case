@@ -31,6 +31,17 @@
     height: 47px;
     border-radius: 8px;
 }
+.row form .facebtn .fab{
+    position: absolute;
+    left: 197px;
+    margin-top: -10px;
+    border-right: 2px solid blue;
+    padding-right: 20px;
+    padding-top: 14px;
+    width: 37px;
+    height: 43px;
+}
+
 .row form .facebtn:hover{
     color: rgb(255, 255, 255);
     background-color: blue;

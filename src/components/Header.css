@@ -13,3 +13,18 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+.iconlars{
+    margin-right: -343px;
+    margin-left: 116px;
+}
+
+#navicon{
+    background-color: white;
+    padding: 3px;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: #b7c8e3;
+    margin-right: 69px;
+    cursor: pointer;
+}
