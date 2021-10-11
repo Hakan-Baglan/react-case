@@ -6,7 +6,7 @@ export default class TheirWords extends Component {
   render() {
     let members = [{}, {}, {}];
     return (
-      <div className="their-words">
+      <div className="their-words" id="download">
         <Swiper
           spaceBetween={25}
           slidesPerView={1}

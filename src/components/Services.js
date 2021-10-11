@@ -3,7 +3,7 @@ import "./services.css";
 export default class Services extends Component {
   render() {
     return (
-      <div className="services">
+      <div className="services"  id="services">
           
  {/* <div className="obj"></div> */}
         <div className="row">

@@ -6,7 +6,7 @@ export default class Members extends Component {
   render() {
     let members = [{}, {}, {}, {}, {}];
     return (
-      <div>
+      <div id="contact">
         <div className="row">
           <div className="description text-center">
             <p>TEAM</p>
