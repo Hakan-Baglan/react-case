@@ -4,4 +4,4 @@
 ![image](https://user-images.githubusercontent.com/87669816/136705868-16353322-425a-4d27-b4c1-1a36126c2407.png)
 ![image](https://user-images.githubusercontent.com/87669816/136705883-e73002d9-b05c-49c6-8ef6-76c6cf377738.png)
 
-CAnlı proje linki: https://explorer-case.web.app
+Canlı proje linki: https://explorer-case.web.app
